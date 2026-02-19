@@ -21,7 +21,7 @@ link.style.webkitTextFillColor = "transparent";
 link.style.animation = "rainbow 4s linear infinite";
 
 const config = {
-  birthdate: 'Feb 18, 2026',
+  birthdate: 'Feb 21, 2026',
   name: 'J & A'
 };
 
