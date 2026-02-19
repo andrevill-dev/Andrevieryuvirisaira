@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+
+<body>
+  <canvas id=c></canvas>
+  <canvas id="confetti"></canvas>
+  <div class="container" id="count">
+    <h3 class="subtitle">Estás invitado a una cena a las 18:30 del 21 de Febrero del 2026:</h3>
+<h2 class="title">Tiempo restante cena J&A:</h2>
+    <ul>
+      <li><span id="day"></span>dias</li>
+      <li><span id="hour"></span>horas</li>
+      <li><span id="minute"></span>minutos</li>
+      <li><span id="second"></span>segundos</li>
+    </ul>
+  </div>
+  <div id="merrywrap" class="merrywrap">
+    <canvas id="snowfall"></canvas>
+    <div class="giftbox">
+      <div class="cover">
+        <div></div>
+      </div>
+      <div class="box"></div>
+    </div>
+    <div id="link" ><a href="{{ '/letter.html' | relative_url }}">Ir a la carta</a></div>
+</body>
+<script src="scripts/confetti.min.js" charset="utf-8"></script>
+<script src="scripts/index.js" charset="utf-8"></script>
+
+</html>
