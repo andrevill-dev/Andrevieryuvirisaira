@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Una Carta Para Ti</title>
+  <style>
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+  font-family: 'Georgia', serif;
+}
+
+.carta {
+  background: #9d9b96;
+  width: 80%;
+  max-width: 600px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  animation: aparecer 1.5s ease;
+
+  margin: 60px auto; /* centra horizontalmente y da espacio arriba y abajo */
+}
+
+    .carta h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .carta p {
+      font-size: 18px;
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    .firma {
+      margin-top: 30px;
+      text-align: right;
+      font-style: italic;
+    }
+
+    @keyframes aparecer {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    html, body {
+  overflow-y: auto !important;
+  height: auto !important;
+}
+  </style>
+</head>
+<body>
+
+  <div class="carta">
+    <h1>Para Javier💌</h1>
+    
+
+
+</body>
+</html>
