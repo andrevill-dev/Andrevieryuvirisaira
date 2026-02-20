@@ -21,7 +21,7 @@ link.style.webkitTextFillColor = "transparent";
 link.style.animation = "rainbow 4s linear infinite";
 
 const config = {
-  birthdate: 'Feb 21, 2026',
+  birthdate: 'Feb 20, 2026',
   name: 'J & A'
 };
 
@@ -44,7 +44,7 @@ const second = 1000,
   hour = minute * 60,
   day = hour * 24;
 
-let countDown = new Date(`${config.birthdate} 18:30:00`).getTime();
+let countDown = new Date(`${config.birthdate} 17:30:00`).getTime();
 x = setInterval(function() {
   let now = new Date().getTime(),
     distance = countDown - now;

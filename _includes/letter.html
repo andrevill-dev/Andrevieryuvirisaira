@@ -4,22 +4,23 @@
   <meta charset="UTF-8">
   <title>Una Carta Para Ti J</title>
   <style>
+
 body {
   margin: 0;
-  background: linear-gradient(135deg, #fceabb, #f8b500);
+  background: url("{{ site.baseurl }}/assets/imgs/JyA.JPG") no-repeat center center fixed;
+  background-size: cover;
   font-family: 'Georgia', serif;
 }
 
 .carta {
-  background: #9d9b96;
+  background: rgba(157, 155, 150, 0.85);
   width: 80%;
   max-width: 600px;
   padding: 40px;
   border-radius: 10px;
-  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.4);
   animation: aparecer 1.5s ease;
-
-  margin: 60px auto; /* centra horizontalmente y da espacio arriba y abajo */
+  margin: 60px auto;
 }
 
     .carta h1 {
@@ -51,7 +52,13 @@ body {
     }
     html, body {
   overflow-y: auto !important;
-  height: auto !important;
+  height:
+   auto !important;
+}
+@media (max-width: 768px) {
+  body {
+    background-position: center top;
+  }
 }
   </style>
 </head>
@@ -59,7 +66,13 @@ body {
 
   <div class="carta">
     <h1>Para Javier💌</h1>
-    
+      
+
+    <div class="firma">
+      Con mucho cariño,<br>
+      André Villamil ❤️
+    </div>
+  </div>
 
 
 </body>
